@@ -3,7 +3,22 @@ entries:
   tsdb:
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2020-06-19T14:22:32.50840267+05:00"
+    created: "2020-06-19T16:06:11.116983858+05:00"
+    description: The TimeSeries DataBase for AlteroUniversal (ClickHouse/InfluxDB/TimeScaleDB)
+    digest: fa79e8272a9f9e4377716fc7bfcf2d04ee5a2fddcf0fb4cd86b2b81c833a146e
+    keywords:
+    - clickhouse
+    - influxdb
+    - yandex
+    kubeVersion: '>= 1.16.0'
+    name: tsdb
+    type: application
+    urls:
+    - https://rasla.github.io/charts/tsdb-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 0.7.0
+    created: "2020-06-19T16:06:11.116658399+05:00"
     description: The TimeSeries DataBase for AlteroUniversal (ClickHouse/InfluxDB/TimeScaleDB)
     digest: 61c280a0fc98ffed35352c20511912c9200212d057970d34608989bd7acb4c8e
     keywords:
@@ -16,4 +31,4 @@ entries:
     urls:
     - https://rasla.github.io/charts/tsdb-0.2.0.tgz
     version: 0.2.0
-generated: "2020-06-19T14:22:32.507540287+05:00"
+generated: "2020-06-19T16:06:11.116241392+05:00"
