@@ -1,4 +1,8 @@
-replicaCount: 2
+# helm repo add ra https://rasla.github.io/charts ; helm repo update
+# helm search repo echo
+# helm upgrade --install echo ra/echo -n echo -f config-echo.local.yaml --version 0.1.0
+
+replicaCount: 1
 
 service:
   port: 8080
