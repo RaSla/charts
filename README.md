@@ -1,14 +1,20 @@
 # HELM-charts Repo
+
 This is the HELM-charts repository.
 
 ## Create HELM-chart
+
 I set up GitHub Pages to point to the `master branch /docs folder`.  
 From there, I can create and publish docs like this:
+
 ```console
 ## Create chart-template
 $ helm create src/tsdb
 ## Edit chart-files...
 ```
+
+More detailed example of HELM-chart creation you can see at:
+<https://github.com/RaSla/docker-magic/tree/develop/3-kubernetes/06-helm>
 
 ## Update HELM-repository
 ```console

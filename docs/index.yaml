@@ -1,5 +1,18 @@
 apiVersion: v1
 entries:
+  echo:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-03-27T21:10:26.996506662+05:00"
+    description: Simple demo-app for Kubernetes
+    digest: b3f12235ddf9fd97cd951de363bda08fcac8f574a85e1b941f05e3da3a11cc1b
+    keywords:
+    - echo
+    name: echo
+    type: application
+    urls:
+    - https://rasla.github.io/charts/echo-0.1.0.tgz
+    version: 0.1.0
   tsdb:
   - apiVersion: v2
     appVersion: 20.8-ch
