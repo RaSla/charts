@@ -1,11 +1,24 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 ## IDE
 .vscode
-.idea
 *sublime*
+*.swp
 
-## Backup- and local- version
+## Backups
 *.bak
 *.local
+*~
+## Local
+.env
+.DS_Store
+*.log
 *.local.yaml
 *.local.yml
-.swp
+
+## App
+_config*
+config-*.yml
